@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+img {
+  object-fit: cover;
+}
+
+.logo {
+  width: 50px;
+}
+nav li img {
+  width: 29px;
+  padding-right: 12px;
+}
+nav .fa {
+  padding-right: 12px;
+  font-size: 15px;
+}
+nav ul li {
+  margin: 25px 0;
+  list-style: none;
+}
+nav ul li a {
+  color: black;
+  text-align: left;
+  display: inline-block;
+}
+
+.user{
+  width: 30px;
+  padding-top: 5px 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.logo{
+  width: 70px;
+}
+
+.dropbtn {
+  color: black;
+  font-weight: bolder;
+  padding: 10px ;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 17;
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.dropdown.active {
+  height: 60vh;
+}
+.myDropDown {
+  display: inline;
+  position: absolute;
+  width: 100%;
+  background: silver;
+}
+
+.myDropDown ul li a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+  z-index: 1;
+}
+.myDropDown ul li {
+  list-style: none;
+  padding-top: 12px;
+}
+.myDropDown img{
+  width: 20px;
+}
+.dropbtn .fa {
+  display: none;
+}
+@media (max-width: 1216px) {
+  .dropbtn .fa {
+    display: inline-block;
+    top: 0;
+  }
+
+  nav ul {
+    display: none;
+  }
+  .section-1 {
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+  }
+
+  .Dashboard:last-of-type {
+    width: 40%;
+  }
+  .Dashboard:nth-of-type(2) {
+    width: 40%;
+  }
+  .Dashboard:first-of-type {
+    width: 20%;
+  }
+ 
+}
+
+.toggle {
+  transition: 0.5s ease-in-out;
+}
+.dropdown.active .toggle {
+  transform: rotate(-180deg);
+}
+.Dashboard {
+  height: 50px;
+  line-height: 10px;
+}
+
+
+.section-2 {
+  background: rgba(192, 192, 192, 0.5);
+  height: 650px;
+  width: 1000px;
+  border-radius: 10px;
+}
+.profile {
+  margin: 20px 0px;
+  height: 580px;
+}
+.profile img{
+height: 50%;
+object-fit: cover;
+}
+
+.input {
+  border-right-style: none;
+  border-left-style: none;
+  border-top-style: none;
+  width: 180px;
+  margin: 20px 10px;
+}
+.input:focus {
+  outline: none;
+}
+
+.input:last-of-type {
+  width: 70%;
+}
+.section-2 a {
+  margin: 15px 20px;
+  position: relative;
+}
+/* .section-2 a::after {
+  content: '.';
+  position: absolute;
+  bottom: -38px;
+  right: 60px;
+  color: green;
+  font-size: 100px;
+  border-radius: 50%;
+} */
+.button {
+  width: 20%;
+  position: relative;
+  left: 200px;
+  background: linear-gradient(45deg, blue, red);
+}
+@media (max-width: 953px) {
+  .button {
+    width: 25%;
+  }
+  .section-2{
+    height: 800px;
+  }
+  .profile{
+    height: 750px;
+  }
+  .border:first-of-type{
+    height: 350px;
+    padding-top: 30px;
+  }
+  .border:last-of-type{
+    height: 380px;
+  }
+  .div{
+    padding: 10px 0;
+  }
+  .bill{
+    padding-top: 10px;
+  }
+  
+
+}
+@media (max-width:767px) {
+  .Dashboard:last-of-type {
+    width: 95%;
+  }
+  .myDropDown{
+    width: 300px;
+  }
+  .Dashboard:nth-of-type(2) {
+    width: 50%;
+  }
+  .Dashboard:first-of-type {
+    width: 20%;
+  }
+  .section-2{
+    height: 1600px;
+  }
+  .profile{
+    height: 750px;
+  }
+  .profile img{
+height: 60%;  
+  }
+  .bell {
+    display: none;
+  }
+}
+@media (max-width:600px) {
+  .Dashboard:nth-of-type(2) {
+    width: 60%;
+    padding-top: 15px;
+  }
+  .Dashboard:first-of-type {
+    width: 30%;
+  }
+  .Dashboard h5{
+    display: none;
+  }
+  .Dashboard p{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .logo{
+    width: 35px;
+    padding-top: 15px;
+  }
+  .Dashboard h2{
+    padding-top:10px;
+  }
+  
+}
+@media (max-width:454px) {
+
+  .button{
+    width: 50%;
+    left: 100px;
+  }
+  .profile img{
+    height: 40%;
+  }
+}
+
+.acc {
+  width: 200px;
+}
+.silver {
+  background: silver;
+}
+.silver:hover {
+  background: silver !important;
+  box-shadow: none;
+}
+.border {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.border li {
+  list-style: none;
+}
+.bill button {
+  width: 25%;
+}
+
+/* index2 page starts */
+.section-3{
+  background: silver;
+  height: 80vh;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.image{
+  background: grey;
+}
+label{
+  width: 20%;
+}
+input, textarea{
+  width: 70%;
+}
+.form{
+  background: white;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  
+}
+.Dashboard h2{
+  color: blue;
+  /* margin-right: 20px; */
+}
+
+.Dashboard h2 span{
+  color: red;
+}
+@media (max-width:767px) {
+  input,textarea{
+    width: 100%;
+  }
+  label{
+    width: 100%;
+  }
+
+}
+.redbtn{
+  background: red;
+  width: 50px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  left: 50%;
+}
+@media (max-width: 1216px){
+  .section-3{
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+

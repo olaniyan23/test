@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearningWithMTH</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="row justify-content-center mt-3">
+      <div class="col-xl-2 col-lg-2 Dashboard">
+        <h2 class="fw-bold">zo<span>putana</span></h2>
+      </div>
+
+      <div class="col-xl-5 col-lg-5 Dashboard">
+        <h5>My Financial Dashboard</h5>
+        <p>Welcome to xpay payment portal</p>
+      </div>
+
+      <div class="col-xl-4 col-lg-4 d-flex portal Dashboard">
+        <i class="fa fa-bell  mx-3 mt-2 bell"></i>
+        <div>
+          <img src="img/user2.jpg" alt="" class="user"/>
+        </div>
+        <div class="dropdown">
+          <p class="dropbtn">
+            Hello Richy
+            <i class="fa fa-caret-down toggle"></i>
+          </p>
+
+          <div class="myDropDown">
+            <ul>
+              <li>
+                <img src="img/logo.png" alt="" /><a href="">My Dashboard</a>
+              </li>
+              <li><i class="fa fa-user"></i><a href="">Account</a></li>
+              <li><i class="fa fa-mobile-alt"></i><a href="">Mobile</a></li>
+              <li><i class="fa fa-credit-card"></i><a href="">Payment</a></li>
+              <li><i class="fa fa-comments"></i><a href="">Complaints</a></li>
+              <li><i class="fa fa-life-ring"></i><a href="">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row section-1">
+      <nav class="col-xl-2 col-lg-2">
+        <ul>
+          <li><img src="img/logo.png" alt="" /><a href="">My Dashboard</a></li>
+          <li><i class="fa fa-user"></i><a href="">Account</a></li>
+          <li><i class="fa fa-mobile-alt"></i><a href="">Mobile</a></li>
+          <li><i class="fa fa-credit-card"></i><a href="">Payment</a></li>
+          <li><i class="fa fa-comments"></i><a href="">Complaints</a></li>
+          <li><i class="fa fa-life-ring"></i><a href="">Support</a></li>
+        </ul>
+      </nav>
+
+      <section class="section-2 row col-xl-10 col-lg-10 col-md-12 mx-3">
+        <div class="col-xl-6 col-lg-6  col-md-6 card profile">
+          <img src="img/user2.jpg" alt=""/>
+          <div class="d-flex justify-content-between mx-4 mt-3">
+            <h5>My profile</h5>
+            <p class="login" id="log">last login</p>
+          </div>
+          <form action="" class="d-print-inline-block">
+            <input
+              type="text"
+              id="username"
+              placeholder="username"
+              class="input"
+            />
+            <input
+              type="tel"
+              id="contact"
+              placeholder="contact"
+              class="input"
+            />
+            <input type="email" id="email" placeholder="email" class="input" />
+          </form>
+          <a href="">SMS alerts activation</a>
+          <button type="button" class="btn btn-dark btn-rounded button">
+            save
+          </button>
+        </div>
+        <div class="col-xl-6 col-lg-6  col-md-6 xpay">
+          <div class="bg-white text-black border">
+            <div class="div d-flex justify-content-between m-3">
+              <h5>My Xpay account</h5>
+              <div class="search">
+                <i class="fa fa-search px-4"></i>
+                <button
+                  type="button"
+                  class="btn btn-dark btn-rounded silver text-black"
+                >
+                  Edit
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="div text-black"></div>
+            <div class="d-flex justify-content-between align-items-center mx-4">
+              <h6>
+                Active account <br />
+                63477796
+              </h6>
+              <button
+                type="button"
+                class="btn btn-danger btn-rounded text-white acc"
+              >
+                Block Account
+              </button>
+            </div>
+            <div class="d-flex justify-content-between align-items-center m-4">
+              <h6>
+                Blocked account <br />
+                63477796
+              </h6>
+              <button
+                type="button"
+                disabled
+                class="btn btn-success btn-rounded text-white mb-5 acc"
+              >
+                Unblock Account
+              </button>
+            </div>
+          </div>
+          <div class="bg-white text-black border">
+            <div class="d-flex justify-content-between mx-3 mt-3">
+              <h5>My Bills</h5>
+
+              <button
+                type="button"
+                class="
+                  btn btn-dark btn-rounded
+                  silver
+                  text-black
+                  align-items-center
+                "
+              >
+                filter by
+              </button>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between m-3 bill">
+              <li class="fw-bold">Phone bill</li>
+              <button
+                type="button"
+                class="btn btn-success btn-rounded text-black"
+              >
+                paid
+              </button>
+            </div>
+            <div
+              class="d-flex justify-content-between m-3 align-items-center bill"
+            >
+              <li class="fw-bold">Internet bills</li>
+              <button
+                type="button"
+                class="btn btn-danger btn-rounded text-black"
+              >
+                Not paid
+              </button>
+            </div>
+            <div class="d-flex justify-content-between m-3 bill">
+              <li class="fw-bold">House rent</li>
+              <button
+                type="button"
+                class="btn btn-success btn-rounded text-black"
+              >
+                paid
+              </button>
+            </div>
+            <div class="d-flex justify-content-between m-3 bill">
+              <li class="fw-bold">Incoming tax</li>
+              <button
+                type="button"
+                class="btn btn-success btn-rounded text-black"
+              >
+                paid
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
